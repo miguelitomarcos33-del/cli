@@ -114,3 +114,7 @@ licenses:
 .PHONY: licenses-check
 licenses-check:
 	./script/licenses-check
+
+.PHONY: fix-dependabot-licenses
+fix-dependabot-licenses:
+	./script/fix-dependabot-licenses.sh
